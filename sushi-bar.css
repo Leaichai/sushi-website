@@ -1,0 +1,277 @@
+
+
+body{
+    background-color: #FFFDFC;
+}
+#logo-navbar{
+    height: 2.5em;
+    margin-left: 2em;
+}
+.nav{
+    height: 1em;
+}
+#home-section {
+    padding-left: 0;
+    padding-right: 0;
+}
+button{
+    margin: 10em;
+}
+#texte-nav:hover {
+    color:#F37D19;
+  }
+
+.btn{
+    margin-right: 2em;
+}
+.HOME{
+    display: flex;
+    background-color:#10181A ;
+    height: 40em;
+}
+.div-vide-home{
+    background-image: url(./home.png);
+    background-size: cover;
+    height: 40em;
+    
+}
+@media screen and (max-width: 1000px){
+    .div-vide-home{
+        display:none;
+        background-image: none;
+    }
+    .tous-text-home{
+        text-align: center;
+        display: grid;
+        place-items: center; /* Alignement horizontal et vertical au centre */
+      
+    }
+}
+
+#ecriture-japonaise-home{
+    color: #F37D19;
+    font-size: 30px;
+    font-family: "Shippori Mincho B1", serif;
+
+}
+#text-home{
+    color: #ffffff;
+    font-size: 60px;
+    font-family: "Baloo Da 2", sans-serif;
+}
+.tous-text-home{
+    margin-left: 70px;
+    margin-top: 6em;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+  
+    
+}
+
+.button-home{
+    background-color: #ffffff;
+    border-radius: 20px;
+    border-style: none;
+    color: black;
+    width: 9em;
+    height: 2em;
+    margin-top: 1em;
+}
+.button-home:hover{
+    width: 10em;
+    height: 2.5em;
+
+}
+
+.OUR-MEALS{
+    background-color: white;
+}
+
+.section-menu {
+    background-color: white;
+    padding-top: 5em;
+    padding-bottom: 5em;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-vide-meal{
+    height: 4em;
+}
+.div-vide-meal2{
+    height: 2em;
+}
+.card-img-top{
+    height: 15em;
+}
+.titre-meal{
+    color: #10181A;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Baloo Da 2", sans-serif;
+}
+span{
+    color: #F37D19;
+}
+#card-our-team {
+    background-color: #10181A;
+    width: 17em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+.titre-our-team{
+    text-align: center;
+    font-family: "Baloo Da 2", sans-serif;
+    color: #ffffff;
+}
+.div-vide-team{
+    height: 1.5em;
+}
+.OUR-TEAM{
+    background-color: #10181A;
+    margin-top: 1em;
+}
+#img-our-team{
+    height: 8em;
+    width: 8em;
+    align-items: center;
+}
+#card-our-team{
+    margin-top: 2em;
+}
+.card-img-top{
+    width: 2em;
+}
+.titre-reserev{
+    font-family:  "Baloo Da 2", sans-serif;
+}
+.RESEREV{
+    background-color: #ffffff;
+}
+.div-vide-reserve{
+    background-image:url(./b3.png);
+    width: 50%;
+    background-size: cover;
+    height: 50em;
+}
+.card-text{
+    color: #FFFDFC;
+    margin-top: 2em;
+    text-align: center;
+    font-family:"Baloo Da 2", sans-serif ;
+}
+.card-petit-text{
+    color: #FFFDFC;
+    margin-top: 1em;
+    text-align: center;
+    font-family:"Baloo Da 2", sans-serif ;
+    font-size: 13px;
+}
+.meal-card-text{
+    color: #10181A;
+    
+}
+.div-vide-team{
+    height: 3em;
+}
+.div-vide-team2{
+    height: 5em;
+}
+@media screen and (max-width: 576px){
+    .card{
+        align-items: center;
+    }
+    #card-our-team{
+        display: flex;
+    }
+}
+.meal-card-text{
+    color: #10181A;
+    
+}
+.titre-reserev{
+    text-align: center;
+}
+.team{
+    background-color: #10181A;
+}
+.container-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#card-menu{
+    background-color: #fdf8f6;
+    border: 0px;
+    border-radius: 40px;
+}
+.input-reserev{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form-input{
+    width: 30em;
+    height: 4em;
+    margin-top: 1em;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+.reserev{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top:5em;
+}
+#button-send{
+    width: 30em;
+    height: 4em;
+    margin-top: 2em;
+    background-color: #000000;
+    border:  0px solid ;
+    border-radius: 30px;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #ffffff;
+    font-family:"Baloo Da 2", sans-serif;
+    
+}
+#button-send:hover{
+    background-color: #F37D19;
+}
+.div-vide-reserve2{
+    height: 1em;
+}
+@media screen and (max-width: 990px){
+    .team{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.div-vide-reserve3{
+    height: 5em;
+}
+
+#resa {
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#resa .RESEREV {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
