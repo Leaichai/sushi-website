@@ -3,6 +3,10 @@
 body{
     background-color: #FFFDFC;
 }
+
+html {
+    overflow-x: hidden;
+}
 #logo-navbar{
     height: 2.5em;
     margin-left: 2em;
