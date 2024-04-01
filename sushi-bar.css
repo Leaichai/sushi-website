@@ -4,7 +4,6 @@ body{
     background-color: #FFFDFC;
 }
 
-
 html {
     overflow-x: hidden;
 }
@@ -49,8 +48,11 @@ button{
         text-align: center;
         display: grid;
         place-items: center; /* Alignement horizontal et vertical au centre */
-      
     }
+    .tous-text-home{
+        margin-left: 0;
+    }
+
 }
 
 #ecriture-japonaise-home{
@@ -263,6 +265,9 @@ span{
         display: flex;
         flex-direction: column;
     }
+    #home-gauche{
+
+    }
 }
 .div-vide-reserve3{
     height: 5em;
@@ -278,5 +283,16 @@ span{
     padding-left: 0;
     padding-right: 0;
 }
-
-
+@media screen and (max-width: 400px){
+    .tous-text-home{
+        margin-left: 0;
+    }
+    #text-home{
+        color: #ffffff;
+        font-size: 50px;
+        font-family: "Baloo Da 2", sans-serif;
+    }
+    .HOME{
+        height: 30em;
+    }
+}
