@@ -265,9 +265,13 @@ span{
         display: flex;
         flex-direction: column;
     }
-    #home-gauche{
-
+    .tous-text-home{
+        margin-left: 0;
     }
+    .HOME{
+        height: 35em;
+    }    
+
 }
 .div-vide-reserve3{
     height: 5em;
@@ -283,7 +287,7 @@ span{
     padding-left: 0;
     padding-right: 0;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
     .tous-text-home{
         margin-left: 0;
     }
@@ -305,4 +309,17 @@ span{
         
     }
     
+}
+@media screen and (max-width: 850px){
+    .tous-text-home{
+        margin-left: 0;
+    }
+    #text-home{
+        color: #ffffff;
+        font-size: 50px;
+        font-family: "Baloo Da 2", sans-serif;
+    }
+    .HOME{
+        height: 30em;
+    }    
 }
